@@ -32,5 +32,8 @@ public User findById (String id) {
 	}
 	return user;
 }
+ public User insert(User obj ) {
+	 return repo.insert(obj );
+ }
 }
 
